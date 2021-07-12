@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="jQuery.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <ul id="list">
+        <li>empty</li>
+        <li>empty</li>
+        <li>empty</li>
+        <li>empty</li>
+    </ul>
+    <input id="execute_btn" type="button" value="execute" />
+    <script>
+        $('#execute_btn').click(function(){
+        $('#list li').text('coding everybody');
+    })
+    </script>
+</body>
+</html>
